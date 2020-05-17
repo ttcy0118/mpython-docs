@@ -1,8 +1,8 @@
-:mod:`ucryptolib` -- 加密密码
+:mod:`ucryptolib` -- Encrypted Password
 ==========================================
 
 .. module:: ucryptolib
-   :synopsis: 加密密码
+   :synopsis: encrypted password
 
 类
 -------
