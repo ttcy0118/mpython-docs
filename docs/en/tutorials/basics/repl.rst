@@ -1,17 +1,17 @@
 REPL
 =====
 
-使用MicroPython的一个主要的优点是交互式的REPL，REPL（read-evaluate-print loop）代表读取﹣求值﹣输出循环。
-REPL对于学习一门新的编程语言具有很大的帮助，因为它能对初学者写的程序立刻做出回应，这意味着你执行代码，并能马上查看结果，而无需经过先编译再上传的繁琐步骤。
-如果mPython掌控板要让REPL在Windows上工作，您需要先安装cp2104的串口驱动程序。
+One of the main advantages of using micropython is the interactive REPL，REPL（read-evaluate-print loop）.
+REPL is very helpful for learning a new programming language, as it can respond to programs written by beginners immediately, it means that you can execute the code and view the results immediately without the tedious steps of compiling and uploading first.
+If the MPython Board wants REPL to work on windows, you need to install the cp2104 serial driver first.
 
 
-串口连接
+Serial Connection
 ----------
 
-要通过USB-serial访问，您需要使用串口终端软件。在Windows上如kitty、xshell都是不错的选择。串口波特率设置为115200，就可以开始玩MicroPython了。
+To access through USB serial, you need to use serial terminal software. On windows, kitty and xshell are good choices. When the serial port baud rate is set to 115200, you can start playing MicroPython.
 
-通过串行端口建立连接后，您可以通过按几次Enter键来测试它是否正常工作，如果正常工作，您能看到Python REPL提示符，表示为 ``>>>`` 。
+After the connection is established through the serial port, you can test whether it works normally by pressing enter several times. If it works normally, you can see the Python REPL prompt, which is expressed as  ``>>>`` .
 
 使用 REPL
 ----------
